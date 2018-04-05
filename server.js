@@ -11,7 +11,7 @@ app.get('*', function(request, response) {
   response.sendFile(path.resolve(__dirname, './public', 'index.html'));
 });
 
-var port = process.env.PORT || 5050;
+var port = process.env.PORT || 5005;
 var server = app.listen(port, function() {
   console.log("Server is running on port " + port);
 });

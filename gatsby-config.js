@@ -9,7 +9,10 @@ module.exports = {
         // Setting a color is optional.
         color: `yellow`,
         // Disable the loading spinner.
-        showSpinner: true
+        showSpinner: true,
+        trickleSpeed: 20,
+        easing: 'ease',
+        speed: 100
       }
     }
   ]
